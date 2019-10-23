@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/fundcv#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/fundcv"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#"
+     xmlns:earthcube="http://cor.esipfed.org/ont/earthcube/"
+     xmlns:ontologyMetadata="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/fundcv">
+        <ontologyMetadata:contact xml:lang="en">Ruth Duerr (ruth dot duerr3 gmailcom)</ontologyMetadata:contact>
+        <ontologyMetadata:contactRole>Ontology Producer</ontologyMetadata:contactRole>
+        <ontologyMetadata:creditCitation xml:lang="en">Duerr, R., 2019, &quot;Funding Agency Controlled Vocabulary&quot;, ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/sfo</ontologyMetadata:creditCitation>
+        <ontologyMetadata:creditRequired>yes</ontologyMetadata:creditRequired>
+        <ontologyMetadata:hasResourceType>text/turtle</ontologyMetadata:hasResourceType>
+        <ontologyMetadata:origVocManager>None</ontologyMetadata:origVocManager>
+        <ontology:hasCreator>Ruth Duerr</ontology:hasCreator>
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <dc:description xml:lang="en">This ontology identifies the subset of the funding agencies in FundRef that are used in the NSF EarthCube Resource Registry.</dc:description>
+        <dc:title xml:lang="en">Funding Agency Controlled Vocabulary</dc:title>
+        <terms:license>http://creativecommons.org/publicdomain/zero/1.0/</terms:license>
+        <oboInOwl:creation_date>2019-09-17T23:32:13Z</oboInOwl:creation_date>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#hasCreator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasCreator"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/fundcv_0000004 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://cor.esipfed.org/ont/earthcube/fundcv_0000004">
+        <rdfs:domain rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T04:39:07Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Acronym</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/fundcv_0000005 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://cor.esipfed.org/ont/earthcube/fundcv_0000005">
+        <rdfs:domain rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T04:47:38Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">ROR ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:domain rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/fundcv_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/fundcv_0000001">
+        <obo:IAO_0000115 xml:lang="en">An agency that funded in whole or in part a resource in the NSF EarthCube Resource Registry.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T04:06:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">EC Funding Agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000001">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004>NSF</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/021nxhr62</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US National Science Foundation</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000005">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004>DOD</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/0447fe631</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Defense (US DOD)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000015 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000015">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004>DOE</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/01bj3aw27</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Energy (US DOE)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000016 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000016">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004>HHS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/033jnv181</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Health and Human Services</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000074 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000074">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOJ</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/02916qm60</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Justice (US DOJ)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000103 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000103">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">NEH</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/02vdm1p28</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US National Endowment for the Humanities (US NEH)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000104 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000104">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/027ka1x80</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">NASA</terms:title>
+        <terms:title xml:lang="en">US National Aeronautics and Space Agency</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000138 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000138">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">US ED</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/021adze67</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Education</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000139 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000139">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">EPA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/03m8km719</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Environmental Protection Agency</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000140 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000140">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOT</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/02xfw2e90</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Transportation (US DOT)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000180 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000180">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DHS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/01rahby95</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Homeland Security (US DHS)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000190 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000190">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOC</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/04chq2495</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Commerce (US DOC)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000192 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000192">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">NOAA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/02z5nhe81</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US National Oceanic and Atmospheric Administration</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000193 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000193">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">NEA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/04t269f15</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US National Endowment for the Arts</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000194 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000194">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/03vvynj75</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of State</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000199 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000199">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">USDA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/01na82s61</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Agriculture</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000200 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000200">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">USAID</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/01n6e6j62</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Agency for International Development</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000201 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000201">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOI</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/03v0pmy70</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Interior (US DOI)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000203 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000203">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">USGS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/035a68863</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Geological Survey</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000204 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000204">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">HUD</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/014a5gx79</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Housing and Urban Development (US HUD)</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000207 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000207">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">SBA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/015t55b95</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Small Business Administration</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000208 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000208">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">IMLS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/030prv062</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Institute of Museum and Library Services</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000738 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000738">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">VA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/05eq41471</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Veterans Administration</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000741 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000741">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">NARA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/032214n64</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US National Archives and Records Administration</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100000778 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100000778">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">DOL</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/05mbkbj54</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Department of Labor</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100005186 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100005186">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">CNCS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/00p8rjs69</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Corporation for National and Community Service</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100005225 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100005225">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">SSA</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/04b7xxn32</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Social Security Administration</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100006097 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100006097">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">TREAS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/028t43p77</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">US Treasury Department</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100006196 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100006196">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">JPL</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/027k65916</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">Jet Propulsion Laboratory, California Institute of Technology</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dx.doi.org/10.13039/100013211 -->
+
+
+    <owl:NamedIndividual rdf:about="http://dx.doi.org/10.13039/100013211">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/earthcube/fundcv_0000001"/>
+        <earthcube:fundcv_0000004 xml:lang="en">IRIS</earthcube:fundcv_0000004>
+        <earthcube:fundcv_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/05xkn9s74</earthcube:fundcv_0000005>
+        <terms:title xml:lang="en">Incorporated Research Institutions For Seismology</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dx.doi.org/10.13039/100013211"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

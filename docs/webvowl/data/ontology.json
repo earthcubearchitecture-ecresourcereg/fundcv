@@ -1,0 +1,401 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Funding Agency Controlled Vocabulary"
+    },
+    "iri" : "http://cor.esipfed.org/ont/earthcube/fundcv",
+    "author" : [ "https://orcid.org/0000-0003-4808-4736" ],
+    "description" : {
+      "en" : "This ontology identifies the subset of the funding agencies in FundRef that are used in the NSF EarthCube Resource Registry."
+    },
+    "other" : {
+      "hasCreator" : [ {
+        "identifier" : "hasCreator",
+        "language" : "undefined",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ],
+      "origVocManager" : [ {
+        "identifier" : "origVocManager",
+        "language" : "undefined",
+        "value" : "None",
+        "type" : "label"
+      } ],
+      "contact" : [ {
+        "identifier" : "contact",
+        "language" : "en",
+        "value" : "Ruth Duerr (ruth dot duerr3 gmailcom)",
+        "type" : "label"
+      } ],
+      "creditCitation" : [ {
+        "identifier" : "creditCitation",
+        "language" : "en",
+        "value" : "Duerr, R., 2019, \"Funding Agency Controlled Vocabulary\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/sfo",
+        "type" : "label"
+      } ],
+      "hasResourceType" : [ {
+        "identifier" : "hasResourceType",
+        "language" : "undefined",
+        "value" : "text/turtle",
+        "type" : "label"
+      } ],
+      "contactRole" : [ {
+        "identifier" : "contactRole",
+        "language" : "undefined",
+        "value" : "Ontology Producer",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:32:13Z",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Funding Agency Controlled Vocabulary",
+        "type" : "label"
+      } ],
+      "creditRequired" : [ {
+        "identifier" : "creditRequired",
+        "language" : "undefined",
+        "value" : "yes",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An agency that funded in whole or in part a resource in the NSF EarthCube Resource Registry.",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-23T04:06:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fundcv_0000001",
+      "en" : "EC Funding Agency"
+    },
+    "individuals" : [ {
+      "iri" : "http://dx.doi.org/10.13039/100000208",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000208"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000207",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000207"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000204",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000204"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000140",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000140"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000180",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000180"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000103",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000103"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000741",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000741"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000005",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000005"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000104",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000104"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000203",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000203"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000200",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000200"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000201",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000201"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000001",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000001"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000738",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000738"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000778",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000778"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000138",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000138"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000139",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000139"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100013211",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100013211"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000194",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000194"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000074",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000074"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000192",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000192"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100005225",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100005225"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000193",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000193"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000190",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000190"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000015",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000015"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000016",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000016"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100006196",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100006196"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100006097",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100006097"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100005186",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100005186"
+      }
+    }, {
+      "iri" : "http://dx.doi.org/10.13039/100000199",
+      "baseIri" : "http://dx.doi.org/10.13039",
+      "labels" : {
+        "IRI-based" : "100000199"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "range" : "2",
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-23T04:39:07Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fundcv_0000004",
+      "en" : "Acronym"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "range" : "3",
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-23T04:47:38Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fundcv_0000005",
+      "en" : "ROR ID"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.org/dc/terms/title",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
+  } ]
+}

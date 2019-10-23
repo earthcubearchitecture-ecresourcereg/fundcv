@@ -1,0 +1,621 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://dx.doi.org/10.13039/100013211"
+    } ]
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
+    "@language" : "en",
+    "@value" : "Ruth Duerr (ruth dot duerr3 gmailcom)"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole" : [ {
+    "@value" : "Ontology Producer"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation" : [ {
+    "@language" : "en",
+    "@value" : "Duerr, R., 2019, \"Funding Agency Controlled Vocabulary\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/sfo"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired" : [ {
+    "@value" : "yes"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType" : [ {
+    "@value" : "text/turtle"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager" : [ {
+    "@value" : "None"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#hasCreator" : [ {
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@id" : "https://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "This ontology identifies the subset of the funding agencies in FundRef that are used in the NSF EarthCube Resource Registry."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Funding Agency Controlled Vocabulary"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "http://creativecommons.org/publicdomain/zero/1.0/"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2019-09-17T23:32:13Z"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An agency that funded in whole or in part a resource in the NSF EarthCube Resource Registry."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-23T04:06:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EC Funding Agency"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-23T04:39:07Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Acronym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-23T04:47:38Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ROR ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@value" : "NSF"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/021nxhr62"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US National Science Foundation"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@value" : "DOD"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/0447fe631"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Defense (US DOD)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@value" : "DOE"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/01bj3aw27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Energy (US DOE)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@value" : "HHS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/033jnv181"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Health and Human Services"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000074",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOJ"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/02916qm60"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Justice (US DOJ)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "NEH"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/02vdm1p28"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US National Endowment for the Humanities (US NEH)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/027ka1x80"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "NASA"
+  }, {
+    "@language" : "en",
+    "@value" : "US National Aeronautics and Space Agency"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "US ED"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/021adze67"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Education"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "EPA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/03m8km719"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Environmental Protection Agency"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000140",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOT"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/02xfw2e90"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Transportation (US DOT)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DHS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/01rahby95"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Homeland Security (US DHS)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOC"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/04chq2495"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Commerce (US DOC)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000192",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "NOAA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/02z5nhe81"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US National Oceanic and Atmospheric Administration"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000193",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "NEA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/04t269f15"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US National Endowment for the Arts"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000194",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/03vvynj75"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of State"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "USDA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/01na82s61"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Agriculture"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "USAID"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/01n6e6j62"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Agency for International Development"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOI"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/03v0pmy70"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Interior (US DOI)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "USGS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/035a68863"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Geological Survey"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000204",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "HUD"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/014a5gx79"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Housing and Urban Development (US HUD)"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000207",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "SBA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/015t55b95"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Small Business Administration"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "IMLS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/030prv062"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Institute of Museum and Library Services"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000738",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "VA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/05eq41471"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Veterans Administration"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000741",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "NARA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/032214n64"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US National Archives and Records Administration"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100000778",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "DOL"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/05mbkbj54"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Department of Labor"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100005186",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "CNCS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/00p8rjs69"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Corporation for National and Community Service"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100005225",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "SSA"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/04b7xxn32"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Social Security Administration"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100006097",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "TREAS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/028t43p77"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "US Treasury Department"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100006196",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "JPL"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/027k65916"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Jet Propulsion Laboratory, California Institute of Technology"
+  } ]
+}, {
+  "@id" : "http://dx.doi.org/10.13039/100013211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/earthcube/fundcv_0000001" ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000004" : [ {
+    "@language" : "en",
+    "@value" : "IRIS"
+  } ],
+  "http://cor.esipfed.org/ont/earthcube/fundcv_0000005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://ror.org/05xkn9s74"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Incorporated Research Institutions For Seismology"
+  } ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition source"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/fundcv_0000001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
